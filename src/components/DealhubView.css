@@ -1,0 +1,104 @@
+.dealhub-container {
+  padding: 20px;
+}
+
+.dealhub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.dealhub-header h2 {
+  color: #33475b;
+  margin: 0;
+}
+
+.new-proposal-btn {
+  background: #0091ae;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-proposal-btn:hover {
+  background: #007d96;
+}
+
+.proposals-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.proposal-card {
+  background: white;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.proposal-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.proposal-card.selected {
+  border: 2px solid #0091ae;
+  background: #f8fcfd;
+}
+
+.proposal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.proposal-header h3 {
+  margin: 0;
+  color: #33475b;
+  font-size: 16px;
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-badge.draft {
+  background: #f5f8fa;
+  color: #516f90;
+}
+
+.status-badge.in-review {
+  background: #fdf7e7;
+  color: #b08800;
+}
+
+.status-badge.pending-approval {
+  background: #e5f5f8;
+  color: #0091ae;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.detail-row .label {
+  color: #516f90;
+}
+
+.detail-row .value {
+  color: #33475b;
+  font-weight: 500;
+} 

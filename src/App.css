@@ -1,0 +1,42 @@
+.app-container {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0 32px;
+  background: white;
+}
+
+.tab {
+  padding: 12px 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #33475b;
+  position: relative;
+}
+
+.tab.active {
+  color: #0091ae;
+  font-weight: 500;
+}
+
+.tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #0091ae;
+}
+
+.tab-content {
+  width: 100%;
+  max-width: 100%;
+} 

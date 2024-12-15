@@ -1,0 +1,129 @@
+.hubspot-container {
+  padding: 24px 32px;
+  background: #f5f8fa;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+}
+
+.app {
+  width: 100%;
+  max-width: 100%;
+}
+
+.deals-metrics {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.metric-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  min-width: 0;
+}
+
+.metric-card h3 {
+  font-size: 12px;
+  color: #33475b;
+  margin: 0 0 12px 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.amount {
+  font-size: 28px;
+  font-weight: 600;
+  color: #0091ae;
+  margin-bottom: 8px;
+}
+
+.sub-text {
+  font-size: 12px;
+  color: #516f90;
+}
+
+.pipeline-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.pipeline-stage {
+  min-width: 200px;
+  background: transparent;
+}
+
+.stage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #33475b;
+  margin-bottom: 8px;
+}
+
+.stage-count {
+  background: #e5f5f8;
+  padding: 2px 8px;
+  border-radius: 12px;
+  color: #0091ae;
+  font-size: 12px;
+}
+
+.deal-card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.deal-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.deal-card.selected {
+  border: 2px solid #0091ae;
+  background: #f8fcfd;
+}
+
+.deal-details {
+  font-size: 13px;
+  color: #516f90;
+  margin: 12px 0;
+  line-height: 1.4;
+}
+
+.deal-amount {
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.deal-meta {
+  font-size: 12px;
+  color: #516f90;
+  border-top: 1px solid #eef1f2;
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+.meeting-info {
+  margin-bottom: 5px;
+}
